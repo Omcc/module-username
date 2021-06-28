@@ -1,5 +1,5 @@
 {
-  "name": "diglin/module-username",
+  "name": "swe/module-username",
   "description": "Real Username support for Magento 2",
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
@@ -27,7 +27,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Diglin\\Username\\": ""
+      "Swe\\Username\\": ""
     }
   }
 }
