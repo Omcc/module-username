@@ -1,14 +1,14 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_Username
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_Username
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Model\Config\Source;
+namespace SWe\Username\Model\Config\Source;
 
 class Inputvalidation implements \Magento\Framework\Option\ArrayInterface
 {

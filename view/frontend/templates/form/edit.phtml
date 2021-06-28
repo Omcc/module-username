@@ -12,7 +12,7 @@
     <fieldset class="fieldset info">
         <?php echo $block->getBlockHtml('formkey')?>
         <legend class="legend"><span><?php /* @escapeNotVerified */ echo __('Account Information') ?></span></legend><br>
-        <?php $_username = $block->getLayout()->createBlock('Diglin\Username\Block\Widget\Username') ?>
+        <?php $_username = $block->getLayout()->createBlock('SWe\Username\Block\Widget\Username') ?>
         <?php if ($_username->isEnabled()): ?>
             <?php echo $_username
                 ->setObject($block->getCustomer())

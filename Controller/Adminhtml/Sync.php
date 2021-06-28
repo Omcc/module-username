@@ -1,36 +1,36 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Controller\Adminhtml;
+namespace SWe\Username\Controller\Adminhtml;
 
 abstract class Sync extends \Magento\Backend\App\Action
 {
     /**
      * Authorization level of a basic admin session
      */
-    const ADMIN_USERNAME_RESOURCE = 'Diglin_Username::config_username';
+    const ADMIN_USERNAME_RESOURCE = 'SWe_Username::config_username';
 
     /**
      * Return file storage singleton
      *
-     * @return \Diglin\Username\Model\Generate\Flag
+     * @return \SWe\Username\Model\Generate\Flag
      */
     protected function _getSyncSingleton()
     {
-        return $this->_objectManager->get('Diglin\Username\Model\Generate\Flag');
+        return $this->_objectManager->get('SWe\Username\Model\Generate\Flag');
     }
 
     /**
      * Return synchronize process status flag
      *
-     * @return \Diglin\Username\Model\Generate\Flag
+     * @return \SWe\Username\Model\Generate\Flag
      */
     protected function _getSyncFlag()
     {

@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_Zopim
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_Zopim
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
     <system>
         <section id="username" translate="label" sortOrder="1000" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label>Username by Diglin GmbH</label>
+            <label>Username by SWe GmbH</label>
             <tab>customer</tab>
-            <resource>Diglin_Username::config_username</resource>
+            <resource>SWe_Username::config_username</resource>
             <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Username Configuration</label>
                 <field id="enabled" type="select" translate="label" sortOrder="10" showInDefault="1" showInStore="1" showInWebsite="1">
@@ -41,7 +41,7 @@
 
                 <field id="input_validation" type="select" translate="label comment" sortOrder="50" showInDefault="1">
                     <label>Input Validation</label>
-                    <source_model>Diglin\Username\Model\Config\Source\Inputvalidation</source_model>
+                    <source_model>SWe\Username\Model\Config\Source\Inputvalidation</source_model>
                     <comment><![CDATA[What kind of username do you want to accept? You can set the value 'Default' which accept letters, digits and the special characters '_-'. Be aware that once the setting is defined and username are created, you MUST not change this setting.]]></comment>
                 </field>
 
@@ -70,7 +70,7 @@
                 <field id="generate" type="button" translate="label comment" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Generate username</label>
                     <comment><![CDATA[Generate a username for each customer who doesn't already have one. It will take in account the "Input validation" settings.]]></comment>
-                    <frontend_model>Diglin\Username\Block\Config\Form\Field\Generate</frontend_model>
+                    <frontend_model>SWe\Username\Block\Config\Form\Field\Generate</frontend_model>
                 </field>
             </group>
         </section>

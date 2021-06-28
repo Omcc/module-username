@@ -12,7 +12,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Diglin_Username::config_username" title="Diglin Username Section" sortOrder="50" />
+                            <resource id="SWe_Username::config_username" title="SWe Username Section" sortOrder="50" />
                         </resource>
                     </resource>
                 </resource>

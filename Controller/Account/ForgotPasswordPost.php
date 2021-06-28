@@ -1,6 +1,6 @@
 <?php
 
-namespace Diglin\Username\Controller\Account;
+namespace SWe\Username\Controller\Account;
 
 use Magento\Customer\Api\AccountManagementInterface;
 use Magento\Customer\Model\AccountManagement;
@@ -26,7 +26,7 @@ class ForgotPasswordPost extends \Magento\Customer\Controller\Account\ForgotPass
         $email = (string)$this->getRequest()->getPost('email');
         if ($email) {
 
-// Diglin - Commented as not needed
+// SWe - Commented as not needed
 //            if (!\Zend_Validate::is($email, 'EmailAddress')) {
 //                $this->session->setForgottenEmail($email);
 //                $this->messageManager->addErrorMessage(__('Please correct the email address.'));

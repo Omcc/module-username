@@ -26,7 +26,7 @@ define([
 
     return Component.extend({
         defaults: {
-            template: 'Diglin_Username/form/element/email',
+            template: 'SWe_Username/form/element/email',
             email: checkoutData.getInputFieldEmailValue(),
             emailFocused: false,
             isLoading: false,

@@ -1,6 +1,6 @@
 <?php
 
-namespace Diglin\Username\Setup;
+namespace SWe\Username\Setup;
 
 use Magento\Framework\DB\DataConverter\SerializedToJson;
 use Magento\Framework\DB\FieldDataConverterFactory;
@@ -10,7 +10,7 @@ use Magento\Framework\Setup\UpgradeDataInterface;
 
 /**
  * Class UpgradeData
- * @package Diglin\Username\Setup
+ * @package SWe\Username\Setup
  */
 class UpgradeData implements UpgradeDataInterface
 {

@@ -1,16 +1,16 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Block\Widget;
+namespace SWe\Username\Block\Widget;
 
-use Diglin\Username\Helper\Customer;
+use SWe\Username\Helper\Customer;
 use Magento\Customer\Api\CustomerMetadataInterface;
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\Data\CustomerInterface;
@@ -22,7 +22,7 @@ use Magento\Customer\Block\Widget\AbstractWidget;
  * @method CustomerInterface getObject()
  * @method Username setObject(CustomerInterface $customer)
  *
- * @package Diglin\Username\Block\Widget
+ * @package SWe\Username\Block\Widget
  */
 class Username extends AbstractWidget
 {

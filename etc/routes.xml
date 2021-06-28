@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_Username
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_Username
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="diglin_username" frontName="customer">
-            <module name="Diglin_Username" before="Magento_Customer" />
+        <route id="SWe_username" frontName="customer">
+            <module name="SWe_Username" before="Magento_Customer" />
         </route>
     </router>
 </config>

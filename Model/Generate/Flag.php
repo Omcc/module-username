@@ -1,19 +1,19 @@
 <?php
 /**
- * Diglin GmbH
+ * SWe GmbH
  *
- * @category    Diglin
- * @package     Diglin_Username
- * @author      Sylvain Rayé <support@diglin.com>
- * @copyright   Copyright (c) 2008-2015 Diglin GmbH - Switzerland (http://www.diglin.com)
+ * @category    SWe
+ * @package     SWe_Username
+ * @author      Sylvain Rayé <support@SWe.com>
+ * @copyright   Copyright (c) 2008-2015 SWe GmbH - Switzerland (http://www.SWe.com)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Diglin\Username\Model\Generate;
+namespace SWe\Username\Model\Generate;
 
 /**
  * Class Flag
- * @package Diglin\Username\Model\Generate
+ * @package SWe\Username\Model\Generate
  */
 class Flag extends \Magento\Framework\Flag
 {

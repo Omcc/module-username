@@ -20,7 +20,7 @@ $usernameLabel =  __('Email');
 $usernameInputType = 'email';
 $usernameInputValidation = ", 'validate-email':true";
 
-if ($this->helper('\Diglin\Username\Helper\Customer')->isEnabled()) {
+if ($this->helper('\SWe\Username\Helper\Customer')->isEnabled()) {
     $usernameLabel =  __('Email/Username');
     $usernameInputType = 'text';
     $usernameInputValidation = "";

@@ -1,14 +1,14 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
  * @package     Training\CustomerComment\Setup
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Setup;
+namespace SWe\Username\Setup;
 
 use Magento\Customer\Model\Customer;
 use Magento\Customer\Setup\CustomerSetup;

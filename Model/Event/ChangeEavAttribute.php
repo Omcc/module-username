@@ -1,6 +1,6 @@
 <?php
 /**
- * Diglin GmbH
+ * SWe GmbH
  *
  * NOTICE OF LICENSE
  *
@@ -9,13 +9,13 @@
  * It is also available through the world-wide-web at this URL:
  * http://opensource.org/licenses/osl-3.0.php
  *
- * @category    Diglin
- * @package     Diglin_Username
- * @copyright   Copyright (c) 2008-2015 Diglin GmbH - Switzerland (http://www.diglin.com)
+ * @category    SWe
+ * @package     SWe_Username
+ * @copyright   Copyright (c) 2008-2015 SWe GmbH - Switzerland (http://www.SWe.com)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Diglin\Username\Model\Event;
+namespace SWe\Username\Model\Event;
 
 use Magento\Customer\Model\AttributeFactory;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -23,7 +23,7 @@ use Magento\Framework\Event\ObserverInterface;
 
 /**
  * Class Observer
- * @package Diglin\Username\Model
+ * @package SWe\Username\Model
  */
 class ChangeEavAttribute implements ObserverInterface
 {

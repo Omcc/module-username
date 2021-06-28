@@ -1,27 +1,27 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Controller\Adminhtml\Sync;
+namespace SWe\Username\Controller\Adminhtml\Sync;
 
-use Diglin\Username\Controller\Adminhtml\Sync;
-use Diglin\Username\Model\Generate\Flag;
+use SWe\Username\Controller\Adminhtml\Sync;
+use SWe\Username\Model\Generate\Flag;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Config as AppConfig;
 use Magento\Eav\Model\Config;
 use Magento\Framework\App\ResourceConnection;
 use Magento\Framework\DB\LoggerInterface;
-use Diglin\Username\Helper\Customer as CustomerHelper;
+use SWe\Username\Helper\Customer as CustomerHelper;
 
 /**
  * Class Generate
- * @package Diglin\Username\Controller\Adminhtml\Username\Sync
+ * @package SWe\Username\Controller\Adminhtml\Username\Sync
  */
 class Generate extends Sync
 {

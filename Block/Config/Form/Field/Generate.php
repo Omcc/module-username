@@ -1,27 +1,27 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_Username
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_Username
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Block\Config\Form\Field;
+namespace SWe\Username\Block\Config\Form\Field;
 
 use Magento\Config\Block\System\Config\Form\Field;
 
 /**
  * Class Generate
- * @package Diglin\Username\Block\Config\Form\Field
+ * @package SWe\Username\Block\Config\Form\Field
  */
 class Generate extends Field
 {
     /**
      * @var string
      */
-    protected $_template = 'Diglin_Username::config/generate.phtml';
+    protected $_template = 'SWe_Username::config/generate.phtml';
 
     /**
      * Remove scope label

@@ -1,9 +1,9 @@
-# Diglin\Username module for Magento 2 - BETA #
+# SWe\Username module for Magento 2 - BETA #
 
 Magento module which allows your customers to use a username and not only the email address as identifier
 
 **IMPORTANT**
-It's a BETA. Lots of things have not been yet implemented or is a work in progress. See the issues https://github.com/diglin/Diglin_Username2/issues/created_by/diglin. For example checkout account creation with username doesn't work.
+It's a BETA. Lots of things have not been yet implemented or is a work in progress. See the issues https://github.com/SWe/SWe_Username2/issues/created_by/SWe. For example checkout account creation with username doesn't work.
 
 ## Features
 
@@ -23,8 +23,8 @@ It's a BETA. Lots of things have not been yet implemented or is a work in progre
 
 ```
 cd path/to/my/magento/project
-composer.phar require 'diglin/module-username'
-bin/magento module:enable Diglin_Username
+composer.phar require 'SWe/module-username'
+bin/magento module:enable SWe_Username
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 ```
@@ -33,12 +33,12 @@ bin/magento setup:di:compile
 
 ```
 cd path/to/my/magento/project
-bin/magento module:uninstall -r Diglin_Username
+bin/magento module:uninstall -r SWe_Username
 ```
 
 ## Author
 
 * Sylvain Rayé
-* http://www.diglin.com/
-* [@diglin_](https://twitter.com/diglin_)
-* [Follow me on github!](https://github.com/diglin)
+* http://www.SWe.com/
+* [@SWe_](https://twitter.com/SWe_)
+* [Follow me on github!](https://github.com/SWe)

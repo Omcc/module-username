@@ -1,18 +1,18 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Test\Helper;
+namespace SWe\Username\Test\Helper;
 
 /**
  * Class CustomerTest
- * @package Diglin\Username\Test\Helper
+ * @package SWe\Username\Test\Helper
  */
 class CustomerTest extends \PHPUnit_Framework_TestCase
 {

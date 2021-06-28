@@ -1,14 +1,14 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Helper;
+namespace SWe\Username\Helper;
 
 use Magento\Framework\App\Config;
 use Magento\Customer\Model\ResourceModel\CustomerRepository;
@@ -17,7 +17,7 @@ use Magento\Framework\App\Helper\Context;
 
 /**
  * Class Customer
- * @package Diglin\Username\Helper
+ * @package SWe\Username\Helper
  */
 class Customer extends \Magento\Framework\App\Helper\AbstractHelper
 {

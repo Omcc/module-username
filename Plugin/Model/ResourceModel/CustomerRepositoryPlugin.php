@@ -1,17 +1,17 @@
 <?php
 /**
- * Diglin GmbH - Switzerland
+ * SWe GmbH - Switzerland
  *
- * @author      Sylvain Rayé <support at diglin.com>
- * @category    Diglin
- * @package     Diglin_
- * @copyright   Copyright (c) 2011-2016 Diglin (http://www.diglin.com)
+ * @author      Sylvain Rayé <support at SWe.com>
+ * @category    SWe
+ * @package     SWe_
+ * @copyright   Copyright (c) 2011-2016 SWe (http://www.SWe.com)
  */
 
-namespace Diglin\Username\Plugin\Model\ResourceModel;
+namespace SWe\Username\Plugin\Model\ResourceModel;
 
-use Diglin\Username\Helper\Customer as CustomerHelper;
-use Diglin\Username\Helper\Customer;
+use SWe\Username\Helper\Customer as CustomerHelper;
+use SWe\Username\Helper\Customer;
 use Magento\Checkout\Helper\Data;
 use Magento\Config\Model\Config\Backend\Admin\Custom;
 use Magento\Customer\Model\Metadata\CustomerMetadata;
@@ -24,7 +24,7 @@ use Magento\Framework\ObjectManagerInterface;
 
 /**
  * Class CustomerRepositoryPlugin
- * @package Diglin\Username\Plugin\Model\ResourceModel
+ * @package SWe\Username\Plugin\Model\ResourceModel
  */
 class CustomerRepositoryPlugin
 {

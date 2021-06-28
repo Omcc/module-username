@@ -1,6 +1,6 @@
 <?php
 /**
- * Diglin GmbH
+ * SWe GmbH
  *
  * NOTICE OF LICENSE
  *
@@ -10,19 +10,19 @@
  * http://opensource.org/licenses/osl-3.0.php
 
  *
- * @category    Diglin
- * @package     Diglin_Username
- * @copyright   Copyright (c) 2008-2015 Diglin GmbH - Switzerland (http://www.diglin.com)
+ * @category    SWe
+ * @package     SWe_Username
+ * @copyright   Copyright (c) 2008-2015 SWe GmbH - Switzerland (http://www.SWe.com)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Diglin\Username\Model\Config;
+namespace SWe\Username\Model\Config;
 
 /**
  * Customer sharing config model
  *
  * Class Share
- * @package Diglin\Username\Model\Config
+ * @package SWe\Username\Model\Config
  */
 class Share extends \Magento\Customer\Model\Config\Share
 {
